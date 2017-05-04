@@ -55,6 +55,14 @@ http://www.easyicon.net/
 
 布局采用flex  ant design （layout）  栅格布局
 
+- fetch （框架）
+数据请求，类似ajax
+```
+npm install fetch --save
+
+```
+
+
 
 
 ### 移动端 （react-responseive）
@@ -70,3 +78,13 @@ import MediaQuery from 'react-responsive';
 				</MediaQuery>
 			</div>
 ```
+
+
+综合新闻网站项目
+UI组件 ： Ant Design； flex 布局
+开发环境： webpack、react、redux、es6 技术栈
+CSS Modules；  ； React-Router
+
+使用 Babel 和 babel-loader 编译 jsx、es6
+
+从后台获取数据使用 Fetch  Promise
