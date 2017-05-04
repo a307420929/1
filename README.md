@@ -1,16 +1,37 @@
-## 慕课网news项目
+## 慕课网项目
 
 ### 1 项目初始化
 ```
+**project**
 ├── Readme.md
 ├── node_modules
+├── .gitignore
 ├── package.json
 ├── src
 │   ├── css
 │   ├── images
 │   ├── js
+│   │   │
 │   │	├── components
-│   │   │    └──
+│   │   │    ├── common_comments.js
+│   │   │    ├── mobile_footer.js
+│   │   │    ├── mobile_header.js
+│   │   │    ├── mobile_index.js
+│   │   │    ├── mobile_list.js
+│   │   │    ├── mobile_list_pull_refresh.js
+│   │   │    ├── mobile_news_details.js
+│   │   │    ├── mobile_usercenter.js
+│   │   │    ├── pc_footer.js
+│   │   │    ├── pc_header.js
+│   │   │    ├── pc_index.js
+│   │   │    ├── pc_news_block.js
+│   │   │    ├── pc_news_details.js
+│   │   │    ├── pc_news_image_block.js
+│   │   │    ├── pc_newscontainer.js
+│   │   │    ├── pc_product.js
+│   │   │    ├── pc_products.js
+│   │   │    └── pc_usercenter.js
+│   │   │
 │   │   └──  root.js
 │	└── bundle.js
 │
@@ -22,9 +43,23 @@ README.md  帮助文件
 node_modules 模块文件夹
 package.json 模块配置文件
 webpack.config.js webpack配置文件
+
+项目启动第一步：
+```
+git clone https://github.com/a307420929/react_news_project.git
+```
+第二步：
+```
+npm install
+```
+第三步：
 ```
 启动热加载看配置： webpack-dev-server --hot --inline
 
+
+--------------我是分割线---------------------
+
+以下是项目随记：（不想看请忽略~~~）
 ### 2 ant design
 ```
 npm install antd --save
